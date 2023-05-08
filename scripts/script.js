@@ -13,7 +13,7 @@ $(document).ready(function () {
   });
 });
 
-// Аккордион
+// Аккордеон
 
 const accordionContent = document.querySelectorAll(".accordion-content");
 

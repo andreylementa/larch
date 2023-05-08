@@ -1749,3 +1749,267 @@ sup {
   align-self: flex-end;
   margin-bottom: 120px;
 }
+
+/* PRODUCT-CARD PAGE ____________________________________________________
+ */
+
+.commodity__container {
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.commodity__content {
+  width: 100%;
+}
+.commodity__product {
+  margin-bottom: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+.commodity-product__picture {
+  height: 400px;
+  width: 400px;
+}
+.commodity-product__img {
+  height: 100%;
+  width: 100%;
+}
+.commodity-product__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.commodity-product__heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  color: #000000;
+}
+.commodity-product__desc {
+}
+.product-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 34px;
+}
+.product-desc__property {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 33px */
+
+  letter-spacing: 0.01em;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fs22 {
+  font-size: 22px;
+}
+.product-desc__dot {
+  color: rgba(0, 0, 0, 0.3);
+}
+.product-desc__value {
+  color: #000000;
+}
+.commodity-product__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* Green */
+
+  color: #4e9f3d;
+  margin-bottom: 37px;
+}
+.commodity-product__btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  background: #e17d21;
+  border-radius: 5px;
+  /* Белый */
+  padding: 16px 30px;
+  color: #ffffff;
+}
+
+.commodity__menu {
+  margin-bottom: 80px;
+}
+.commodity-menu {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  gap: 24px;
+  background: #ffffff;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 0 30px;
+}
+.commodity-menu__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  color: #000000;
+}
+.commodity-menu__list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.commodity-menu__item {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Белый */
+
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #191a19;
+  border-radius: 15px;
+  width: 89px;
+  height: 39px;
+}
+.commodity-menu__item--disable {
+}
+
+.commodity__table-row {
+  padding-left: 60px;
+  gap: 0;
+}
+.commodity__table-row--black {
+}
+
+.commodity__table-column-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  color: #ffffff;
+}
+
+.table-column-heading--mrright1 {
+  margin-right: 123px;
+}
+.table-column-heading--mrright2 {
+  margin-right: 122px;
+}
+.table-column-heading--mrright3 {
+  margin-right: 120px;
+}
+.table-column-heading--mrright4 {
+}
+
+.commodity__table-column-value--font1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.commodity__table-column-value--font2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.commodity__table-column-value--font3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  /* identical to box height, or 33px */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.commodity__table-column-value--font4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  /* identical to box height, or 33px */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.commodity__table-column-value--mrright1 {
+  margin-right: 81px;
+}
+.commodity__table-column-value--mrright2 {
+  margin-right: 141px;
+}
+.commodity__table-column-value--mrright3 {
+  margin-right: 166px;
+}
+.commodity__table-column-value--mrright4 {
+  margin-right: 91px;
+}
+.commodity__table-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: var(--green);
+  border-radius: 5px;
+
+  width: 121px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.commodity__table-row:nth-child(odd):not(:first-child) {
+  background: rgba(0, 0, 0, 0.1);
+}
