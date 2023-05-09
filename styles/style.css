@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+html {
+  background-color: var(--bg-white);
+}
+
 :root {
   --bg-white: #f8f8f8;
   --lite-grey: rgba(0, 0, 0, 0.3);
@@ -1023,7 +1027,7 @@ body {
 
 .products__card-picture {
   height: 265px;
-  width: 440px;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -1175,6 +1179,9 @@ body {
 }
 
 .discounts__row-sale-text {
+}
+
+.row-sale__text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -1184,7 +1191,11 @@ body {
   max-width: 545px;
   color: #ffffff;
 }
+
 .discounts-row-sale__link {
+}
+
+.row-sale__link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -1388,7 +1399,11 @@ body {
   color: var(--grey);
   margin-bottom: 30px;
 }
-.dilivery-content__list {
+.delivery-content__list {
+  margin-bottom: 40px;
+}
+
+.conditions-list {
   width: 100%;
   background: #ffffff;
   box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15);
@@ -1397,9 +1412,12 @@ body {
   flex-direction: column;
   gap: 20px;
   padding: 30px;
-  margin-bottom: 40px;
 }
+
 .delivery-contents__list-item {
+}
+
+.conditions-list__item {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -1411,7 +1429,7 @@ body {
   position: relative;
 }
 
-.delivery-contents__list-item::before {
+.conditions-list__item::before {
   position: absolute;
   content: "";
   width: 30px;
@@ -1436,7 +1454,7 @@ body {
   width: 100%;
 }
 
-.delivery-subheading {
+.section-subheading {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -1899,6 +1917,11 @@ sup {
   height: 39px;
 }
 .commodity-menu__item--disable {
+  background: rgba(25, 26, 25, 0.5);
+}
+
+.commodity__table {
+  margin-bottom: 70px;
 }
 
 .commodity__table-row {
@@ -2012,4 +2035,121 @@ sup {
 
 .commodity__table-row:nth-child(odd):not(:first-child) {
   background: rgba(0, 0, 0, 0.1);
+}
+
+.commodity-info {
+  width: 100%;
+  margin-bottom: 70px;
+}
+.section-subheading {
+}
+.commodity__subheading {
+}
+.commodity-info__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px 20px;
+  background: #ffffff;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.commodity-info__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  position: relative;
+  color: #000000;
+  padding-left: 35px;
+}
+
+.commodity-info__text::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 0;
+  background: var(--lite-green);
+  border-radius: 10px;
+}
+
+.commodity-info__link {
+  color: #007abe;
+}
+
+.commodity__row-sale {
+  margin-bottom: 70px;
+}
+
+.commodity-conditions {
+  margin-bottom: 70px;
+}
+
+.commodity-cards {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+}
+
+.swiper {
+  max-width: 1104px;
+}
+
+.swiper-slide {
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper__card-price {
+  margin-bottom: 20px;
+}
+
+.swiper-card {
+  max-width: 352px;
+  background: #ffffff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.swiper__card-link {
+  width: 100%;
+  max-width: none;
+  text-align: center;
+}
+
+.swiper-left {
+  position: absolute;
+  right: 71px;
+  cursor: pointer;
+}
+.swiper-right {
+  cursor: pointer;
+  position: absolute;
+  right: 4px;
+}
+
+.commodity-swiper {
+  margin-bottom: 140px;
 }

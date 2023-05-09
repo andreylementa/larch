@@ -45,3 +45,32 @@ function removeOpen(index1) {
     }
   });
 }
+
+// Плавный переход между страницами
+
+$(document).ready(function () {
+  $("body").css("display", "none");
+
+  $("body").fadeIn(2000);
+
+  $("a.transition").click(function (event) {
+    event.preventDefault();
+    linkLocation = this.href;
+    $("body").fadeOut(1000, redirectPage);
+  });
+
+  function redirectPage() {
+    window.location = linkLocation;
+  }
+});
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 24,
+  slidesPerView: 3,
+  navigation: {
+    nextEl: ".swiper-right",
+    prevEl: ".swiper-left",
+  },
+  mousewhell: true,
+  keyboard: true,
+});
