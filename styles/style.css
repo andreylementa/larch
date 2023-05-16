@@ -501,7 +501,8 @@ body {
 .properties-card::before {
   position: absolute;
   content: "";
-  width: 480px;
+  width: 100%;
+  max-width: 480px;
   height: 0;
   border: 2px solid #000000;
   top: 0;
@@ -511,7 +512,8 @@ body {
 .properties-card::after {
   position: absolute;
   content: "";
-  width: 480px;
+  width: 100%;
+  max-width: 480px;
   height: 0;
   border: 2px solid #000000;
   bottom: 0;
@@ -838,6 +840,7 @@ body {
   border-width: 1px 0px;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.3);
+  padding: 0 10px;
 }
 .connect__content-caption {
   font-family: "Rounded Elegance";

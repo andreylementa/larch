@@ -115,6 +115,26 @@
   }
 }
 
+@media (max-width: 970px) {
+  .connect {
+    flex-direction: column;
+  }
+
+  .connect__title {
+    max-width: none;
+    height: 200px;
+    display: flex;
+  }
+  .connect__heading {
+    margin-top: 0;
+    align-self: center;
+  }
+
+  .connect__content-caption {
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 930px) {
   .nav__link {
     font-size: 18px;
@@ -251,6 +271,38 @@
   .services__card-img {
     height: 300px;
   }
+  .connetct-form__btn-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .footer__container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .connetct-form__btn-row-text {
+    text-align: center;
+  }
+  .footer__nav {
+    margin-top: 30px;
+    gap: 10px;
+    margin-right: 0;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+  .footer__logo {
+  }
+  .footer__md-col-text {
+    margin-bottom: 20px;
+  }
+  .footer {
+    height: fit-content;
+  }
+  .footer__contacts {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 635px) {
@@ -353,6 +405,143 @@
   .services__card-name {
     font-size: 18px;
   }
+
+  .connect-form__fieldset {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .connect-form__fieldset-input {
+    max-width: none;
+  }
+
+  .connect-form__select {
+    max-width: none;
+  }
+}
+
+@media (max-width: 542px) {
+  .properties__list {
+  }
+  .side-menu {
+    width: 50%;
+  }
+  .burger-tel-box {
+    align-items: end;
+  }
+  .tel-box__num {
+    font-size: 16px;
+  }
+  .properties-card {
+    height: 220px;
+    width: 100%;
+    max-width: 270px;
+    padding: 35px 0;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+
+  .properties-card__border::before {
+    height: 185px;
+    top: -20px;
+    left: -141px;
+  }
+
+  .properties-card__border::after {
+    height: 185px;
+    top: -20px;
+    left: 143px;
+  }
+
+  .properties-card__heading {
+    font-size: 20px;
+  }
+
+  .properties-card__text {
+    font-size: 15px;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .hero {
+    margin-bottom: 50px;
+  }
+  .about {
+    margin-bottom: 50px;
+  }
+  .about__content {
+  }
+  .about__content-row {
+    margin-top: 30px;
+  }
+  .properties {
+    margin-bottom: 30px;
+  }
+  .properties__list {
+    row-gap: 0;
+  }
+
+  .properties-card:not(:first-child) {
+    margin-top: -4px;
+  }
+
+  .heading {
+    line-height: 38px;
+  }
+  .larch__container {
+    gap: 30px;
+  }
+  .larch {
+    margin-bottom: 50px;
+  }
+  .discounts__head-row {
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .services {
+    margin-bottom: 50px;
+  }
+  .services__card-img {
+    margin-bottom: 10px;
+  }
+  .services__card-name {
+    line-height: 23px;
+  }
+  .services__list {
+    row-gap: 25px;
+  }
+  .discounts {
+    margin-bottom: 50px;
+  }
+  .connect__content-caption {
+    font-size: 20px;
+  }
+  .connect__content {
+    gap: 25px;
+  }
+  .connect-form__fieldset-input {
+    height: 40px;
+  }
+  .connect-form__fieldset-input::placeholder {
+    font-size: 16px;
+  }
+  .connect-form__select {
+    font-size: 16px;
+  }
+  .connect__textarea::placeholder {
+    font-size: 16px;
+  }
+  .connect {
+    margin-bottom: 43px;
+  }
+
+  .cards-list--carouse {
+    padding: 0 0 20px 0;
+  }
+  .connetct-form__btn-row-button {
+    font-size: 18px;
+    padding: 8px 38px;
+  }
 }
 
 @media (max-width: 465px) {
@@ -376,8 +565,11 @@
     font-size: 26px;
   }
 
+  .larch-list {
+    margin-right: 0;
+  }
   .larch-item {
-    width: 45%;
+    width: 100%;
     font-size: 13px;
   }
   .services__card-img {
@@ -385,5 +577,34 @@
   }
   .services__card {
     width: 90%;
+  }
+  .card-picture {
+    height: fit-content;
+  }
+  .cards-list--carouse {
+    overflow: auto;
+    gap: 5px;
+    scroll-snap-type: x mandatory;
+    flex-wrap: nowrap;
+  }
+  .discount-card--carouse {
+    flex-shrink: 0;
+    max-width: 300px;
+  }
+
+  .discount__card-picture img {
+    object-fit: contain;
+    width: 100%;
+  }
+  .discount__card-row {
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 330px) {
+  .discount-card--carouse {
+    max-width: 250px;
   }
 }
